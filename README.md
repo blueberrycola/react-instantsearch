@@ -2,7 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Required NPM packages
+algoliasearch, react-instantsearch-dom
+
 ## Available Scripts
+
+# Created Using 'npx create-react-app ./app
 
 In the project directory, you can run:
 
