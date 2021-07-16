@@ -1,0 +1,15 @@
+.instantsearch{
+    max-width: 960px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+.leftpanel {
+    float: left;
+    width: 250px;
+}
+.rightpanel {
+    margin-left: 260px;
+}
+.hit-name {
+    margin-bottom: 0.5em;
+}
