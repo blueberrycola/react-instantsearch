@@ -10,10 +10,10 @@ import {
     Configure,
   } from 'react-instantsearch-dom';
 import './Search.css';
-
+//https://www.algolia.com to create free account and retrieve appID and API Key
 //Configure Search Client
 const searchClient = algoliasearch(
-    'APPLICATION_ID', //APP_ID
+    'APPLICATION_ID', 
     '(API_KEY || ADMIN_KEY)' 
 );
 
