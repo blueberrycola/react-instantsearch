@@ -10,12 +10,11 @@ import {
     Configure,
   } from 'react-instantsearch-dom';
 import './Search.css';
-//ADMIN KEY: 69891f3b1bed5509e196dde7a6e09092
 
 //Configure Search Client
 const searchClient = algoliasearch(
-    'RP7TLMJW40', //APP_ID
-    '4cc4e533a31dc04bc024519c7948b777' // (API_KEY || ADMIN_KEY)
+    'APPLICATION_ID', //APP_ID
+    '(API_KEY || ADMIN_KEY)' 
 );
 
 const Search = () => (
